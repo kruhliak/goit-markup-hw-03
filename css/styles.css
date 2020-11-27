@@ -366,11 +366,6 @@ body {
 }
 
 
-.filtr-list .active:hover,
-.filtr-list .active:focus {
-  color: var(--title-text-color);
-}
-
 /* Примеры работ */
 
 .example-list {
