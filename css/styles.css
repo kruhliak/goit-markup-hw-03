@@ -18,7 +18,7 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid #a7ddee; */
+  outline: 2px solid grey;
 }
 
 .logo {
@@ -229,9 +229,7 @@ body {
 
 /* Команда */
 
-.section > .main-team {
-  padding: 94px 0;
-}
+
 
 .team-list {
   list-style: none;
@@ -239,6 +237,7 @@ body {
   padding: 0;
 
   display: flex;
+  /* align-content: center; */
 }
 
 .team-list > .item:not(:last-child) {
