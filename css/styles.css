@@ -120,7 +120,9 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .active {
+.site-nav .active,
+.auth-nav .link:hover,
+.auth-nav .link:focus{
   color: var(--accent-color);
 }
 
@@ -363,10 +365,6 @@ body {
   background-color: var(--accent-color);
 }
 
-.filtr-list .active {
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
 
 .filtr-list .active:hover,
 .filtr-list .active:focus {
@@ -387,6 +385,7 @@ body {
 .example-list > .item {
   margin: 15px 15px 0 15px;
   width: calc((1170px - 60px) / 3);
+  border: 1px solid #EEEEEE;
 }
 
 .example-list > .item:nth-child(-n + 3) {
