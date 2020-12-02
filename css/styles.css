@@ -129,6 +129,10 @@ body {
   background-color: var(--primari-background-color);
   text-align: center;
   padding: 200px 0;
+
+  background-image: url(../img/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -228,10 +232,6 @@ body {
 }
 
 /* Команда */
-
-.section > .main-team {
-  padding: 94px 0;
-}
 
 .team-list {
   list-style: none;
